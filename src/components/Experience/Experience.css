@@ -1,0 +1,30 @@
+.experience-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+    row-gap: 2rem;
+}
+
+@media screen and (max-width: 840px) {
+    .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+}
+@media screen and (min-width: 840px) {
+    .experience-grid {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+}
+
+/* @media screen and (max-width: 640px) {
+    .experience-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+} */

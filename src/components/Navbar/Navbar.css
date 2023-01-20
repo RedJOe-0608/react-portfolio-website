@@ -1,0 +1,20 @@
+.open{
+    transition: .3s ease-in-out;
+    transform: translateY(0);
+}
+.close{
+    transition: .3s ease-in-out;
+        transform: translateY(-100%);
+}
+
+@media screen and (min-width:830px) {
+    .navBtn{
+        display: none;
+    }
+    .navLinks{
+        display: flex;
+    }
+    .logo{
+        font-size: 3rem;
+    }
+}

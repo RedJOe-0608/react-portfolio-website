@@ -1,0 +1,42 @@
+.hero-img::before{
+    content: '';
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 1.25rem;
+    right: 1.25rem;
+    border: 0.25rem solid #06b6d4;
+    border-radius: 0.5rem;
+}
+@media screen and (max-width:870px)
+{
+.hero-img::before {
+    display: none;
+}
+}
+@media screen and (min-width:870px) {
+    .hero-img::before {
+            display: block;
+        }
+}
+
+@media screen and (min-width:840px) {
+    .subtext-media-query {
+        max-width: 37rem;
+    }
+         .img {
+             display: flex;
+         }
+         .text-div{
+            flex: 1;
+        }
+                
+}
+@media screen and (min-width:1240px) {
+    .main-links{
+        display: none;
+    }
+  
+}
+
